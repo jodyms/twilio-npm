@@ -1,0 +1,45 @@
+{
+  "_from": "cordova-plugin-twilio-video-v2preview",
+  "_id": "cordova-plugin-twilio-video-v2preview@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-yEChyESEdlBhVmhs/HLjeRVga/M=",
+  "_location": "/cordova-plugin-twilio-video-v2preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-twilio-video-v2preview",
+    "name": "cordova-plugin-twilio-video-v2preview",
+    "escapedName": "cordova-plugin-twilio-video-v2preview",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-twilio-video-v2preview/-/cordova-plugin-twilio-video-v2preview-0.3.0.tgz",
+  "_shasum": "c840a1c8448476506156686cfc72e37915606bf3",
+  "_spec": "cordova-plugin-twilio-video-v2preview",
+  "_where": "C:\\",
+  "bundleDependencies": false,
+  "cordova_name": "Twilio video room plugin",
+  "dependencies": {
+    "decompress": "4.2.0",
+    "decompress-tarbz2": "4.1.1"
+  },
+  "deprecated": false,
+  "description": "This is a cordova plugin built using Twilio Video API v2.0.0preview6. Main reason for making the plugin is to support H.264 codec on Android Marshmallow+ devices.",
+  "engines": [],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-twilio-video-v2preview",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "scripts": {
+    "postinstall": "node hooks/node_before_add/fetch-twilio-video-ios.js"
+  },
+  "version": "0.3.0"
+}
